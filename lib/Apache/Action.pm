@@ -7,7 +7,7 @@ use Exporter;
 use Data::Dumper;
 use Apache::Constants qw(:response);
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 @ISA = qw(Exporter);
 
 # Class methods
@@ -167,7 +167,7 @@ sub upload {
 	return $self->{Request}->upload(@_);
 }
 
-=head1 NAMe
+=head1 NAME
 
 Apache::Action - A method dispatch mechanism for Apache
 
